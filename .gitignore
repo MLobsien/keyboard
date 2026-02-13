@@ -1,0 +1,17 @@
+# KiCad backup files
+*-backups/
+*.bak
+*.bck
+*-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# KiCad auto-save files
+*-save.kicad_pcb
+*-save.kicad_sch
+_autosave-*
+
+# KiCad cache and libraries (generated)
+*-cache.lib
+fp-info-cache
+*.lck
