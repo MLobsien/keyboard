@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RP2040-Zero")(type "KiCad")(uri "${KIPRJMOD}/library/rp2040-zero/Andrews-Custom.pretty")(options "")(descr ""))
+  (lib (name "SSD1306")(type "KiCad")(uri "${KIPRJMOD}/library/ssd1306/SSD1306.pretty")(options "")(descr ""))
+)
