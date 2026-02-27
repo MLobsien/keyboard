@@ -3728,7 +3728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Choc-V1:Kailh-PG1353-Solderable-1U"
+		(property "Footprint" "Choc-V1:SW_Kailh_Choc_V1"
 			(at 83.82 58.42 0)
 			(effects
 				(font
@@ -3972,7 +3972,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Choc-V1:Kailh-PG1353-Solderable-1U"
+		(property "Footprint" "Choc-V1:SW_Kailh_Choc_V1"
 			(at 160.02 39.37 0)
 			(effects
 				(font
@@ -4039,7 +4039,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "SK6812-Mini-E:MX_SK6812MINI-E"
 			(at 118.11 115.57 0)
 			(effects
 				(font
@@ -4203,7 +4203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Choc-V1:Kailh-PG1353-Solderable-1U"
+		(property "Footprint" "Choc-V1:SW_Kailh_Choc_V1"
 			(at 140.97 39.37 0)
 			(effects
 				(font
@@ -4359,7 +4359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Choc-V1:Kailh-PG1353-Solderable-1U"
+		(property "Footprint" "Choc-V1:SW_Kailh_Choc_V1"
 			(at 140.97 77.47 0)
 			(effects
 				(font
@@ -4427,7 +4427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "SK6812-Mini-E:MX_SK6812MINI-E"
 			(at 163.83 115.57 0)
 			(effects
 				(font
@@ -4503,7 +4503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Choc-V1:Kailh-PG1353-Solderable-1U"
+		(property "Footprint" "Choc-V1:SW_Kailh_Choc_V1"
 			(at 121.92 77.47 0)
 			(effects
 				(font
@@ -4571,7 +4571,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "SK6812-Mini-E:MX_SK6812MINI-E"
 			(at 133.35 115.57 0)
 			(effects
 				(font
@@ -4647,7 +4647,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Choc-V1:Kailh-PG1353-Solderable-1U"
+		(property "Footprint" "Choc-V1:SW_Kailh_Choc_V1"
 			(at 102.87 77.47 0)
 			(effects
 				(font
@@ -4715,7 +4715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "SK6812-Mini-E:MX_SK6812MINI-E"
 			(at 179.07 135.89 0)
 			(effects
 				(font
@@ -4867,7 +4867,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "SK6812-Mini-E:MX_SK6812MINI-E"
 			(at 179.07 115.57 0)
 			(effects
 				(font
@@ -4943,7 +4943,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "SK6812-Mini-E:MX_SK6812MINI-E"
 			(at 133.35 135.89 0)
 			(effects
 				(font
@@ -5228,7 +5228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Choc-V1:Kailh-PG1353-Solderable-1U"
+		(property "Footprint" "Choc-V1:SW_Kailh_Choc_V1"
 			(at 140.97 58.42 0)
 			(effects
 				(font
@@ -5296,7 +5296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Choc-V1:Kailh-PG1353-Solderable-1U"
+		(property "Footprint" "Choc-V1:SW_Kailh_Choc_V1"
 			(at 121.92 39.37 0)
 			(effects
 				(font
@@ -5452,7 +5452,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "SK6812-Mini-E:MX_SK6812MINI-E"
 			(at 181.61 111.76 0)
 			(effects
 				(font
@@ -5616,7 +5616,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "SK6812-Mini-E:MX_SK6812MINI-E"
 			(at 118.11 135.89 0)
 			(effects
 				(font
@@ -5692,7 +5692,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Choc-V1:Kailh-PG1353-Solderable-1U"
+		(property "Footprint" "Choc-V1:SW_Kailh_Choc_V1"
 			(at 102.87 39.37 0)
 			(effects
 				(font
@@ -5760,7 +5760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "SK6812-Mini-E:MX_SK6812MINI-E"
 			(at 135.89 111.76 0)
 			(effects
 				(font
@@ -5836,7 +5836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Choc-V1:Kailh-PG1353-Solderable-1U"
+		(property "Footprint" "Choc-V1:SW_Kailh_Choc_V1"
 			(at 83.82 77.47 0)
 			(effects
 				(font
@@ -5904,7 +5904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Choc-V1:Kailh-PG1353-Solderable-1U"
+		(property "Footprint" "Choc-V1:SW_Kailh_Choc_V1"
 			(at 160.02 77.47 0)
 			(effects
 				(font
@@ -6060,7 +6060,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "SK6812-Mini-E:MX_SK6812MINI-E"
 			(at 148.59 115.57 0)
 			(effects
 				(font
@@ -6136,7 +6136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "SK6812-Mini-E:MX_SK6812MINI-E"
 			(at 166.37 111.76 0)
 			(effects
 				(font
@@ -6302,7 +6302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "SK6812-Mini-E:MX_SK6812MINI-E"
 			(at 120.65 111.76 0)
 			(effects
 				(font
@@ -6378,7 +6378,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Choc-V1:Kailh-PG1353-Solderable-1U"
+		(property "Footprint" "Choc-V1:SW_Kailh_Choc_V1"
 			(at 102.87 58.42 0)
 			(effects
 				(font
@@ -6962,7 +6962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Choc-V1:Kailh-PG1353-Solderable-1U"
+		(property "Footprint" "Choc-V1:SW_Kailh_Choc_V1"
 			(at 160.02 58.42 0)
 			(effects
 				(font
@@ -7030,7 +7030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Choc-V1:Kailh-PG1353-Solderable-1U"
+		(property "Footprint" "Choc-V1:SW_Kailh_Choc_V1"
 			(at 83.82 39.37 0)
 			(effects
 				(font
@@ -7098,7 +7098,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "SK6812-Mini-E:MX_SK6812MINI-E"
 			(at 163.83 135.89 0)
 			(effects
 				(font
@@ -7262,7 +7262,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "SK6812-Mini-E:MX_SK6812MINI-E"
 			(at 148.59 135.89 0)
 			(effects
 				(font
@@ -7498,7 +7498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "SK6812-Mini-E:MX_SK6812MINI-E"
 			(at 151.13 111.76 0)
 			(effects
 				(font
@@ -7574,7 +7574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Choc-V1:Kailh-PG1353-Solderable-1U"
+		(property "Footprint" "Choc-V1:SW_Kailh_Choc_V1"
 			(at 121.92 58.42 0)
 			(effects
 				(font

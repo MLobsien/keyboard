@@ -1511,10 +1511,6 @@
 		)
 		(instances
 			(project "Keyboard"
-				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/d777195d-63e1-45cf-bdcd-083236482c4e/2e4c41b3-22fd-48bd-af7e-ed67fc59d883"
-					(reference "D70")
-					(unit 1)
-				)
 				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/effbb08b-3fc5-4b96-83dd-92860f3d7777/b4a3c6d9-ae00-44ee-b05e-f6bf39312733"
 					(reference "D18")
 					(unit 1)
@@ -1548,7 +1544,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Choc-V1:Kailh-PG1353-Solderable-1U"
+		(property "Footprint" "Choc-V1:SW_Kailh_Choc_V1"
 			(at 185.42 76.2 0)
 			(effects
 				(font
@@ -1583,10 +1579,6 @@
 		)
 		(instances
 			(project "Keyboard"
-				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/d777195d-63e1-45cf-bdcd-083236482c4e/2e4c41b3-22fd-48bd-af7e-ed67fc59d883"
-					(reference "SW34")
-					(unit 1)
-				)
 				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/effbb08b-3fc5-4b96-83dd-92860f3d7777/b4a3c6d9-ae00-44ee-b05e-f6bf39312733"
 					(reference "SW16")
 					(unit 1)
@@ -1620,7 +1612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "SK6812-Mini-E:MX_SK6812MINI-E"
 			(at 176.53 153.67 0)
 			(effects
 				(font
@@ -1663,10 +1655,6 @@
 		)
 		(instances
 			(project "Keyboard"
-				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/d777195d-63e1-45cf-bdcd-083236482c4e/2e4c41b3-22fd-48bd-af7e-ed67fc59d883"
-					(reference "D67")
-					(unit 1)
-				)
 				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/effbb08b-3fc5-4b96-83dd-92860f3d7777/b4a3c6d9-ae00-44ee-b05e-f6bf39312733"
 					(reference "D49")
 					(unit 1)
@@ -1700,7 +1688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Choc-V1:Kailh-PG1353-Solderable-1U"
+		(property "Footprint" "Choc-V1:SW_Kailh_Choc_V1"
 			(at 185.42 114.3 0)
 			(effects
 				(font
@@ -1735,10 +1723,6 @@
 		)
 		(instances
 			(project "Keyboard"
-				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/d777195d-63e1-45cf-bdcd-083236482c4e/2e4c41b3-22fd-48bd-af7e-ed67fc59d883"
-					(reference "SW36")
-					(unit 1)
-				)
 				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/effbb08b-3fc5-4b96-83dd-92860f3d7777/b4a3c6d9-ae00-44ee-b05e-f6bf39312733"
 					(reference "SW18")
 					(unit 1)
@@ -1810,10 +1794,6 @@
 		)
 		(instances
 			(project "Keyboard"
-				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/d777195d-63e1-45cf-bdcd-083236482c4e/2e4c41b3-22fd-48bd-af7e-ed67fc59d883"
-					(reference "J12")
-					(unit 1)
-				)
 				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/effbb08b-3fc5-4b96-83dd-92860f3d7777/b4a3c6d9-ae00-44ee-b05e-f6bf39312733"
 					(reference "J7")
 					(unit 1)
@@ -1847,7 +1827,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Choc-V1:Kailh-PG1353-Solderable-1U"
+		(property "Footprint" "Choc-V1:SW_Kailh_Choc_V1"
 			(at 185.42 95.25 0)
 			(effects
 				(font
@@ -1882,10 +1862,6 @@
 		)
 		(instances
 			(project "Keyboard"
-				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/d777195d-63e1-45cf-bdcd-083236482c4e/2e4c41b3-22fd-48bd-af7e-ed67fc59d883"
-					(reference "SW35")
-					(unit 1)
-				)
 				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/effbb08b-3fc5-4b96-83dd-92860f3d7777/b4a3c6d9-ae00-44ee-b05e-f6bf39312733"
 					(reference "SW17")
 					(unit 1)
@@ -1974,10 +1950,6 @@
 		)
 		(instances
 			(project "Keyboard"
-				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/d777195d-63e1-45cf-bdcd-083236482c4e/2e4c41b3-22fd-48bd-af7e-ed67fc59d883"
-					(reference "D69")
-					(unit 1)
-				)
 				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/effbb08b-3fc5-4b96-83dd-92860f3d7777/b4a3c6d9-ae00-44ee-b05e-f6bf39312733"
 					(reference "D17")
 					(unit 1)
@@ -2011,7 +1983,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "SK6812-Mini-E:MX_SK6812MINI-E"
 			(at 200.66 153.67 0)
 			(effects
 				(font
@@ -2054,10 +2026,6 @@
 		)
 		(instances
 			(project "Keyboard"
-				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/d777195d-63e1-45cf-bdcd-083236482c4e/2e4c41b3-22fd-48bd-af7e-ed67fc59d883"
-					(reference "D71")
-					(unit 1)
-				)
 				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/effbb08b-3fc5-4b96-83dd-92860f3d7777/b4a3c6d9-ae00-44ee-b05e-f6bf39312733"
 					(reference "D50")
 					(unit 1)
@@ -2146,10 +2114,6 @@
 		)
 		(instances
 			(project "Keyboard"
-				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/d777195d-63e1-45cf-bdcd-083236482c4e/2e4c41b3-22fd-48bd-af7e-ed67fc59d883"
-					(reference "D68")
-					(unit 1)
-				)
 				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/effbb08b-3fc5-4b96-83dd-92860f3d7777/b4a3c6d9-ae00-44ee-b05e-f6bf39312733"
 					(reference "D16")
 					(unit 1)
@@ -2183,7 +2147,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "SK6812-Mini-E:MX_SK6812MINI-E"
 			(at 224.79 153.67 0)
 			(effects
 				(font
@@ -2226,10 +2190,6 @@
 		)
 		(instances
 			(project "Keyboard"
-				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/d777195d-63e1-45cf-bdcd-083236482c4e/2e4c41b3-22fd-48bd-af7e-ed67fc59d883"
-					(reference "D72")
-					(unit 1)
-				)
 				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/effbb08b-3fc5-4b96-83dd-92860f3d7777/b4a3c6d9-ae00-44ee-b05e-f6bf39312733"
 					(reference "D51")
 					(unit 1)
@@ -2304,10 +2264,6 @@
 		)
 		(instances
 			(project "Keyboard"
-				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/d777195d-63e1-45cf-bdcd-083236482c4e/2e4c41b3-22fd-48bd-af7e-ed67fc59d883"
-					(reference "J11")
-					(unit 1)
-				)
 				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/effbb08b-3fc5-4b96-83dd-92860f3d7777/b4a3c6d9-ae00-44ee-b05e-f6bf39312733"
 					(reference "J6")
 					(unit 1)
