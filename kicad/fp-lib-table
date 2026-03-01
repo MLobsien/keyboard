@@ -2,6 +2,6 @@
   (version 7)
   (lib (name "RP2040-Zero")(type "KiCad")(uri "${KIPRJMOD}/library/rp2040-zero/rp2040-zero.pretty")(options "")(descr ""))
   (lib (name "PJ-320A")(type "KiCad")(uri "${KIPRJMOD}/library/pj-320a/pj-320a.pretty")(options "")(descr ""))
-  (lib (name "Choc-V1")(type "KiCad")(uri "${KICAD9_3RD_PARTY}/footprints/com_github_perigoso_keyswitch-kicad-library/Switch_Keyboard_Kailh.pretty")(options "")(descr ""))
+  (lib (name "Choc-V1")(type "KiCad")(uri "${KIPRJMOD}/library/choc-v1/choc-v1.pretty")(options "")(descr ""))
   (lib (name "SK6812-Mini-E")(type "KiCad")(uri "${KIPRJMOD}/library/sk6812-mini-e/sk6812-mini-e.pretty")(options "")(descr ""))
 )
