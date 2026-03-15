@@ -1,0 +1,22 @@
+#define VENDOR_ID 0x3004
+#define PRODUCT_ID 0x2009
+
+#define DEVICE_VER 0x1
+
+#define MANUFACTURER "mads-lobsien"
+#define PRODUCT "coolest_keyboard_ever"
+
+#define MATRIX_ROWS 6
+#define MATRIX_COLS 12
+#define DIODE_DIRECTION COL2ROW
+
+#define SPLIT_USB_DETECT
+#define EE_HANDS
+
+#define MATRIX_COL_PINS {GP9, GP10, GP11, GP12, GP13, GP5}
+#define MATRIX_ROW_PINS {GP6, GP7, GP8}
+
+#define MATRIX_ROW_PINS_RIGHT {GP5, GP6, GP7}
+#define MARTIX_COL_PINS_RIGHT {GP8, GP9, GP10, GP11, GP12, GP15}
+
+#define RGBLED_SPLIT {36, 36}
