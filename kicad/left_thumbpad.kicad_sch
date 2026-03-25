@@ -1084,6 +1084,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 148.59) (xy 157.48 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "229bc9f5-c147-4715-b174-d0dc354a02ca")
+	)
+	(wire
+		(pts
 			(xy 199.39 138.43) (xy 223.52 138.43)
 		)
 		(stroke
@@ -1111,6 +1121,16 @@
 			(type default)
 		)
 		(uuid "3e71db47-a0c8-4a54-adb8-7b0b4ba88268")
+	)
+	(wire
+		(pts
+			(xy 140.97 143.51) (xy 157.48 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "441e21ac-c8f7-4535-a071-f93b3f1ef393")
 	)
 	(wire
 		(pts
@@ -1144,16 +1164,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 148.59) (xy 157.48 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6073fb7-48b5-4336-9338-a51d5393a279")
-	)
-	(wire
-		(pts
 			(xy 157.48 153.67) (xy 175.26 153.67)
 		)
 		(stroke
@@ -1172,18 +1182,8 @@
 		)
 		(uuid "c493ea83-53ba-4511-8e6d-10c72281ae4c")
 	)
-	(wire
-		(pts
-			(xy 140.97 143.51) (xy 157.48 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff321f25-27ee-4db3-b666-d863733d19fc")
-	)
 	(label "R2"
-		(at 140.97 104.14 0)
+		(at 140.97 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1193,7 +1193,7 @@
 		(uuid "3b0d2cc2-4ffa-483c-bac8-59f9ba0eabbf")
 	)
 	(label "R3"
-		(at 140.97 106.68 0)
+		(at 140.97 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1608,7 +1608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "pogo-socket-angled:PinSocket_1x03_P2.54mm_Vertical"
 			(at 135.89 146.05 0)
 			(effects
 				(font
@@ -2075,7 +2075,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "pogo-socket-angled:PinSocket_1x04_P2.54mm_Vertical"
 			(at 135.89 101.6 0)
 			(effects
 				(font

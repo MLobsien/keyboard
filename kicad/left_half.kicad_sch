@@ -2044,6 +2044,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -2997,16 +3122,6 @@
 		)
 		(uuid "09a69e43-353c-46fc-bc31-1b2a7069171c")
 	)
-	(label "GND"
-		(at 214.63 36.83 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0b0a8826-f39a-4547-b0e3-4052132d9898")
-	)
 	(label "C4"
 		(at 146.05 81.28 0)
 		(effects
@@ -3087,16 +3202,6 @@
 		)
 		(uuid "27996141-6c9a-4a73-a4f2-782ebab12d00")
 	)
-	(label "OUT"
-		(at 212.09 36.83 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2ac39718-443a-42b7-bfeb-79a828051559")
-	)
 	(label "C1"
 		(at 88.9 43.18 0)
 		(effects
@@ -3167,16 +3272,6 @@
 		)
 		(uuid "6fe7ff30-6b63-4e69-b3cb-b65e19eba62c")
 	)
-	(label "OUT"
-		(at 254 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "728ba119-ebac-4337-9498-c09de66cffe1")
-	)
 	(label "ADC0"
 		(at 236.22 83.82 180)
 		(effects
@@ -3208,7 +3303,7 @@
 		(uuid "789cb031-0d36-47f9-b79d-811330f39b8b")
 	)
 	(label "R2"
-		(at 190.5 62.23 180)
+		(at 190.5 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3228,7 +3323,7 @@
 		(uuid "7d20b303-bfa9-443e-b157-a48d5cbc5105")
 	)
 	(label "R3"
-		(at 190.5 64.77 180)
+		(at 190.5 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3268,7 +3363,7 @@
 		(uuid "8515abcc-61c4-4492-b569-2b2b9a843a47")
 	)
 	(label "R2"
-		(at 236.22 106.68 180)
+		(at 236.22 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3328,7 +3423,7 @@
 		(uuid "9e3903e6-884d-4eee-9ace-c334ccaa78ed")
 	)
 	(label "R3"
-		(at 236.22 104.14 180)
+		(at 236.22 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3356,16 +3451,6 @@
 			(justify left bottom)
 		)
 		(uuid "a27f7230-8c14-4421-b248-848762c07ec3")
-	)
-	(label "+5V"
-		(at 209.55 36.83 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a3dc178e-11d3-42b3-b6a7-ef5c10ed28e4")
 	)
 	(label "GND"
 		(at 228.6 31.75 180)
@@ -3929,7 +4014,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "pogo-socket-angled:PinSocket_1x03_P2.54mm_Vertical"
 			(at 195.58 102.87 0)
 			(effects
 				(font
@@ -3969,6 +4054,73 @@
 			(project ""
 				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/effbb08b-3fc5-4b96-83dd-92860f3d7777"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 254 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1859df11-6bf5-4b1c-b033-d329c908153a")
+		(property "Reference" "#PWR03"
+			(at 250.19 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 257.81 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 254 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c2c4431-3d51-484d-8542-70720694928b")
+		)
+		(instances
+			(project ""
+				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/effbb08b-3fc5-4b96-83dd-92860f3d7777"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4057,6 +4209,73 @@
 			(project "Keyboard"
 				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/effbb08b-3fc5-4b96-83dd-92860f3d7777"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 236.22 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c2a2a11-f559-43d8-b0f4-48e0a5e61ee4")
+		(property "Reference" "#PWR06"
+			(at 240.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 232.41 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 236.22 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9868b85-4c6c-4b20-898d-f09740524a6e")
+		)
+		(instances
+			(project ""
+				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/effbb08b-3fc5-4b96-83dd-92860f3d7777"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5518,7 +5737,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "pogo-socket-angled:PinSocket_1x04_P2.54mm_Vertical"
 			(at 195.58 62.23 0)
 			(effects
 				(font
@@ -6290,77 +6509,6 @@
 			(project "Keyboard"
 				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/effbb08b-3fc5-4b96-83dd-92860f3d7777"
 					(reference "D46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 212.09 31.75 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a64c859d-b857-4776-8c0c-4994a097a6c2")
-		(property "Reference" "J1"
-			(at 212.09 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 212.09 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 212.09 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 212.09 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Placeholder for PIR"
-			(at 212.09 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "388c8b81-4cd6-460a-9ac6-47cb79982759")
-		)
-		(pin "2"
-			(uuid "f496b524-742f-4d99-871b-dc792c341dc1")
-		)
-		(pin "3"
-			(uuid "6a3f92fe-e533-4298-bb15-913e4759a7a1")
-		)
-		(instances
-			(project ""
-				(path "/de3a30da-dd56-4801-a3f5-765b04aa12e1/effbb08b-3fc5-4b96-83dd-92860f3d7777"
-					(reference "J1")
 					(unit 1)
 				)
 			)

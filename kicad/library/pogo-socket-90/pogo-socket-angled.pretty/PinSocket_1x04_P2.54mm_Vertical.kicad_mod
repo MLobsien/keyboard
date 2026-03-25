@@ -1,0 +1,112 @@
+(footprint "PinSocket_1x04_P2.54mm_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Through hole straight socket strip, 1x03, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
+	(tags "Through hole socket strip THT 1x03 2.54mm single row")
+	(property "Reference" "REF**"
+		(at 0 -2.77 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b8f378e2-d8ea-4093-afa5-bd7fe499e8f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PinSocket_1x04_P2.54mm_Vertical"
+		(at 0 7.85 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c59174c2-5bcb-44bf-809d-fc3e82014e4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bda13f23-cef1-4f92-b952-4f855485fa6d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84a16f9b-c8ac-4581-b30a-db49c1ae13d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -4 -5.51)
+		(end 0 14.48)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "08903952-27f8-4e14-9a3d-7f75ad2e2da8")
+	)
+	(fp_rect
+		(start 0 0)
+		(end 2.5 8.97)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "93e6ed2d-6d22-40f1-9d5b-15982ac3d58d")
+	)
+	(pad "1" thru_hole circle
+		(at 1.65 0.675)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c2633e34-406f-4667-8c07-29f2b5f69c6d")
+	)
+	(pad "2" thru_hole circle
+		(at 1.65 3.215)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d8216496-3ad0-4084-b9ce-230a59ef7566")
+	)
+	(pad "3" thru_hole circle
+		(at 1.65 5.755)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3589de9e-304c-44c2-b4d6-4aef1060f5b7")
+	)
+	(pad "4" thru_hole circle
+		(at 1.65 8.295)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7ec397c1-dbc4-4148-8614-1b9a809d9c4a")
+	)
+	(embedded_fonts no)
+)

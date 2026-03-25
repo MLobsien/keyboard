@@ -4,4 +4,8 @@
   (lib (name "PJ-320A")(type "KiCad")(uri "${KIPRJMOD}/library/pj-320a/pj-320a.pretty")(options "")(descr ""))
   (lib (name "Choc-V1")(type "KiCad")(uri "${KIPRJMOD}/library/choc-v1/choc-v1.pretty")(options "")(descr ""))
   (lib (name "SK6812-Mini-E")(type "KiCad")(uri "${KIPRJMOD}/library/sk6812-mini-e/sk6812-mini-e.pretty")(options "")(descr ""))
+  (lib (name "pogo-socket-angled")(type "KiCad")(uri "${KIPRJMOD}/library/pogo-socket-90/pogo-socket-angled.pretty")(options "")(descr ""))
+  (lib (name "Mouse-Bites")(type "KiCad")(uri "${KIPRJMOD}/library/mousebites/mouse-bites.pretty")(options "")(descr ""))
+  (lib (name "SSD1306")(type "KiCad")(uri "${KIPRJMOD}/library/ssd1306/SSD1306.pretty")(options "")(descr ""))
+  (lib (name "PIR")(type "KiCad")(uri "${KIPRJMOD}/library/pir/motion_sensor.pretty")(options "")(descr ""))
 )

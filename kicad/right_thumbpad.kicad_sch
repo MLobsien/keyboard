@@ -1144,13 +1144,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 148.59) (xy 157.48 148.59)
+			(xy 140.97 143.51) (xy 157.48 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6073fb7-48b5-4336-9338-a51d5393a279")
+		(uuid "af88c917-7871-4ac6-96e4-c293ca637449")
 	)
 	(wire
 		(pts
@@ -1174,16 +1174,16 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 143.51) (xy 157.48 143.51)
+			(xy 140.97 148.59) (xy 157.48 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff321f25-27ee-4db3-b666-d863733d19fc")
+		(uuid "caddf1e3-19e9-4a8b-813e-295b8b7a1047")
 	)
 	(label "C1"
-		(at 140.97 99.06 0)
+		(at 140.97 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1193,7 +1193,7 @@
 		(uuid "06a2bea3-41b4-41dc-8479-dc5f08155231")
 	)
 	(label "R2"
-		(at 140.97 104.14 0)
+		(at 140.97 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1223,7 +1223,7 @@
 		(uuid "3882708c-1023-475f-a195-9633bda5916c")
 	)
 	(label "R3"
-		(at 140.97 106.68 0)
+		(at 140.97 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1253,7 +1253,7 @@
 		(uuid "667d5ae0-e5d9-48b1-8f52-fcaf0fc622b6")
 	)
 	(label "R1"
-		(at 140.97 101.6 0)
+		(at 140.97 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1585,6 +1585,7 @@
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 135.89 146.05 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1593,7 +1594,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1e202c9-0240-4535-91c3-9b95944decd9")
 		(property "Reference" "J12"
-			(at 136.525 138.43 0)
+			(at 136.525 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,14 +1602,14 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 136.525 140.97 0)
+			(at 136.525 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "pogo-socket-angled:PinSocket_1x03_P2.54mm_Vertical"
 			(at 135.89 146.05 0)
 			(effects
 				(font
@@ -2052,6 +2053,7 @@
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 135.89 101.6 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2060,7 +2062,7 @@
 		(fields_autoplaced yes)
 		(uuid "ffca3e00-5b4a-4f61-9729-3a584a8ceb84")
 		(property "Reference" "J11"
-			(at 136.525 93.98 0)
+			(at 136.525 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2068,14 +2070,14 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 136.525 96.52 0)
+			(at 136.525 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "pogo-socket-angled:PinSocket_1x04_P2.54mm_Vertical"
 			(at 135.89 101.6 0)
 			(effects
 				(font
