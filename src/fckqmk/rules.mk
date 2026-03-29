@@ -1,0 +1,3 @@
+KEYBOARD = fckqmk
+SERIAL_DRIVER = vendor
+SPLIT_KEYBOARD = yes
