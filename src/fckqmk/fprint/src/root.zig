@@ -32,7 +32,7 @@ pub export fn init() void {
 
     var buf: [8]u8 = undefined;
     qmk.uart_receive(@ptrCast(&buf), 8);
-    const sn = std.mem.readIntBig(u24, buf[2..6]);
+    const sn = std.mem.readInt(u24, buf[2..5], .little);
 
-    _ = qmk.uprintf("%d", sn);
+    _ = qmk.uprintf("%d", @as(u32, sn));
 }

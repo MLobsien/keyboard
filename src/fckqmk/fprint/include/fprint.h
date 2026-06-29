@@ -1,1 +1,1 @@
-void init();
+extern void init();
