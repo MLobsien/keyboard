@@ -1,30 +1,29 @@
 {
-  inputs.nixpkgs.url = "nixpkgs/nixos-unstable";
+  inputs = {
+    nixpkgs.url = "nixpkgs/nixos-unstable";
+    qmk = {
+      url = "git+https://github.com/qmk/qmk_firmware?submodules=1";
+      flake = false;
+    };
+  };
 
-  outputs = {nixpkgs, ...}: let
+  outputs = {
+    nixpkgs,
+    qmk,
+    ...
+  }: let
     system = "x86_64-linux";
     pkgs = import nixpkgs {inherit system;};
 
-    qmk_firmware = let
-      src = pkgs.fetchFromGitHub {
-        owner = "qmk";
-        repo = "qmk_firmware";
-        rev = "4fbb3956025627250e7a0d2439266006ebf3efc4";
-        sha256 = "sha256-uJk95j3Jn3IvZ2UYY4PlDcBckJGD+JGNpNTzTJkhzKo=";
-        fetchSubmodules = true;
-      };
-    in
-      pkgs.runCommand "qmk_firmware" {} ''
-        mkdir $out
-        cp --no-preserve=mode -r ${src}/* $out
-        cp -r ${../..}/fckqmk $out/keyboards/
-      '';
+    qmk_firmware = pkgs.runCommand "qmk_firmware" {} ''
+      mkdir $out
+      cp --no-preserve=mode -r ${qmk}/* $out
+      cp -r ${../..}/fckqmk $out/keyboards/
+    '';
 
-    cc = pkgs.gcc-arm-embedded-13;
+    cc = pkgs.gcc-arm-embedded-15;
 
-    tab = "    ";
-
-    fmt = f: v: tab + (pkgs.lib.concatStringsSep ("\n" + tab) (f v));
+    fmt = f: v: let tab = "    "; in tab + (pkgs.lib.concatStringsSep ("\n" + tab) (f v));
 
     build.zig = let
       suffixes = [
@@ -281,24 +280,29 @@
       '';
     };
 
-    packages.${system}.default = pkgs.stdenv.mkDerivation {
-      name = "fprint";
-      src = ./.;
-      inherit nativeBuildInputs;
+    packages.${system} = {
+      default = pkgs.stdenv.mkDerivation {
+        name = "fprint";
+        src = ./.;
+        inherit nativeBuildInputs;
 
-      buildPhase = ''
-        export ZIG_LOCAL_CACHE_DIR=$TMPDIR/zig-cache
-        export ZIG_GLOBAL_CACHE_DIR=$TMPDIR/zig-global-cache
+        buildPhase = ''
+          export ZIG_LOCAL_CACHE_DIR=$TMPDIR/zig-cache
+          export ZIG_GLOBAL_CACHE_DIR=$TMPDIR/zig-global-cache
 
-        rm -f build.zig && cp ${build.zig} build.zig
+          cp ${build.zig} build.zig
 
-        zig build
-      '';
+          zig build
+        '';
 
-      installPhase = ''
-        mkdir -p $out/lib
-        cp zig-out/lib/libfprint.a $out/lib/
-      '';
+        installPhase = ''
+          mkdir -p $out/lib
+          cp zig-out/lib/libfprint.a $out/lib
+          cp -r include/ $out
+        '';
+      };
+
+      inherit qmk_firmware;
     };
   };
 }
