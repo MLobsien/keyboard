@@ -4,9 +4,6 @@
       "inputs": {
         "nixpkgs": [
           "nixpkgs"
-        ],
-        "qmk": [
-          "qmk"
         ]
       },
       "locked": {

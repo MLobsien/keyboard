@@ -1,1 +1,1 @@
-extern void init();
+extern void fprint_init(void);
