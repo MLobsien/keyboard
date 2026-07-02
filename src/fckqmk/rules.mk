@@ -1,3 +1,4 @@
 KEYBOARD = fckqmk
 SERIAL_DRIVER = vendor
 SPLIT_KEYBOARD = yes
+RAW_ENABLE = yes

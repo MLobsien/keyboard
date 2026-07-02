@@ -21,19 +21,16 @@
         export ZIG_LOCAL_CACHE_DIR=$TMPDIR/zig-cache
         export ZIG_GLOBAL_CACHE_DIR=$TMPDIR/zig-global-cache
 
-        zig build
+        zig build-obj src/root.zig -target thumb-freestanding-eabi -mcpu=cortex_m0plus
       '';
 
       installPhase = ''
-        mkdir -p $out/lib
-        cp zig-out/lib/libfprint.a $out/lib
-        cp -r include/ $out
+        mkdir -p $out/bin $out/include
+        cp root.o $out/bin/fprint.o
 
         cat > $out/include/fprint.mk << EOF
         UART_DRIVER_REQUIRED = yes
-        CFLAGS += -I$out/include
-        LDFLAGS += -L$out/lib -lfprint
-        SRC += $out/include/qmk.c
+        SRC += $out/bin/fprint.o
         EOF
       '';
     };

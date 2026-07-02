@@ -40,7 +40,7 @@
         cp --no-preserve=mode -r ${qmk}/* $out
         cp --no-preserve=mode -r ${../.}/fckqmk $out/keyboards/
 
-        echo "include ${default}/include/fprint.mk" >> $out/keyboards/fckqmk/rules.mk
+        cat ${default}/include/fprint.mk >> $out/keyboards/fckqmk/rules.mk
       '';
 
       preConfigure = ''

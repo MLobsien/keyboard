@@ -10,7 +10,7 @@ enum layers {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [BASE] = LAYOUT(
-        KC_Q, KC_W, KC_E, KC_R, KC_T, KC_SPACE, KC_DELETE, KC_Y, KC_U, KC_I,
+        DB_TOGG, KC_W, KC_E, KC_R, KC_T, KC_SPACE, KC_DELETE, KC_Y, KC_U, KC_I,
         KC_O, KC_P, MT(MOD_LALT, KC_A), MT(MOD_LGUI, KC_S), MT(MOD_LCTL, KC_D),
         MT(MOD_LSFT, KC_F), KC_G, TG(VIM_COMPATIBILITY), LT(NUMBERS, KC_ESCAPE),
         MT(MOD_RSFT, KC_H), MT(MOD_RCTL, KC_J), MT(MOD_RGUI, KC_K),
